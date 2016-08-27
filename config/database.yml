@@ -85,3 +85,4 @@ production:
   database: pg-app_production
   username: pg-app
   password: <%= ENV['PG-APP_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
