@@ -144,6 +144,6 @@ test:
 production:
     clients:
         default:
-            uri: <%= ENV['MONGOLAB_URI'] %>
+            uri: <%= ENV['MLAB_URI'] %>
             options:
                 connect_timeout: 15
