@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.6'
 gem 'rails-api'
-gem 'puma'
 # To use Jbuilder templates for JSON
 gem 'jbuilder', '~> 2.0'
 gem 'rack-cors', :require => 'rack/cors'
@@ -21,6 +20,7 @@ end
 
 group :production do
 	gem 'rails_12factor'
+	gem 'puma'
 end
 
 gem 'tzinfo-data'
