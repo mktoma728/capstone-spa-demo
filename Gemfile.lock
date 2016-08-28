@@ -42,6 +42,7 @@ GEM
     bson (4.1.1)
     builder (3.2.2)
     byebug (9.0.5)
+    certified (1.0.0)
     concurrent-ruby (1.0.2)
     debug_inspector (0.0.2)
     erubis (2.7.0)
@@ -141,6 +142,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  certified
   httparty
   jbuilder (~> 2.0)
   mongoid
