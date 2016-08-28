@@ -6,6 +6,7 @@ gem 'rails-api'
 # To use Jbuilder templates for JSON
 gem 'jbuilder', '~> 2.0'
 gem 'rack-cors', :require => 'rack/cors'
+gem 'certified'
 
 group :development do
 	gem 'web-console', '~> 2.0'
@@ -20,7 +21,6 @@ end
 group :production do
 	gem 'rails_12factor'
 	gem 'puma'
-	gem 'certified'
 end
 
 gem 'tzinfo-data'
