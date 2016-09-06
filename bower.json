@@ -1,0 +1,24 @@
+{
+  "name": "pg-app",
+  "description": "capstone example",
+  "main": "index.js",
+  "authors": [
+    "mike toma"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery2": "^2.0.0",
+    "bootstrap-sass": "^3.3.7",
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "angular-resource": "^1.5.8"
+  }
+}
